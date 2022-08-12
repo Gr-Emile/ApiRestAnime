@@ -1,0 +1,28 @@
+1. getAnimes
+http://localhost:8080/biblioteca
+
+2.getAnimesById
+http://localhost:8080/biblioteca/7
+
+3. alterarAnimes
+http://localhost:8080/biblioteca/3
+{
+        "nome": "One Piece ALTERADO de novo",
+        "numeroTemporadas": 89,
+        "duracaoDoEp": 20,
+        "streamDisponivel": "CRUNCHROLL",
+        "legendaDisponivel": "PT-BR"
+}
+
+4. cadastrarAnimes
+http://localhost:8080/biblioteca
+{
+        "nome": "One Piece novo novo",
+        "numeroTemporadas": 89,
+        "duracaoDoEp": 20,
+        "streamDisponivel": "CRUNCHROLL",
+        "legendaDisponivel": "PT-BR"
+}
+
+5.deletarAnimes
+http://localhost:8080/biblioteca/3
